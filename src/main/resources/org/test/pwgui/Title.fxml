@@ -23,19 +23,9 @@
       </Label>
       <TextField fx:id="username_login" layoutX="220.0" layoutY="172.0" promptText="username" />
       <TextField fx:id="password_login" layoutX="220.0" layoutY="220.0" promptText="password" />
-      <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="189.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../../../../picture/PW-gui-resource/2794663.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="215.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../../../../picture/PW-gui-resource/389-3892916_password-icon-png-change-password-icon-transparent-clipart.png" />
-         </image>
-      </ImageView>
       <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="189.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../picture/PW-gui-resource/706297.png" />
+            <Image url="@../../../../../../picture/PW-gui-resource/706297.png" />
          </image>
       </ImageView>
       <Button blendMode="MULTIPLY" layoutX="399.0" layoutY="172.0" mnemonicParsing="false" onAction="#login" text="Login" />
@@ -46,6 +36,11 @@
       </Label>
       <Button blendMode="MULTIPLY" layoutX="399.0" layoutY="220.0" mnemonicParsing="false" onAction="#register" text="Register" />
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
-      <TextField fx:id="display" alignment="CENTER" blendMode="DARKEN" layoutX="193.0" layoutY="259.0" prefHeight="26.0" prefWidth="213.0" />
+      <TextField fx:id="display" alignment="CENTER" blendMode="DARKEN" layoutX="194.0" layoutY="272.0" prefHeight="26.0" prefWidth="213.0" />
+      <ImageView fitHeight="29.0" fitWidth="24.0" layoutX="190.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../picture/PW-gui-resource/2794663.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
