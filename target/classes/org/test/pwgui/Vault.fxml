@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.test.pwgui.TableViewController">
+   <children>
+      <TableView fx:id="table" layoutX="69.0" layoutY="14.0" prefHeight="220.0" prefWidth="456.0">
+        <columns>
+          <TableColumn fx:id="website_col" onEditCommit="#editWebsiteCell" prefWidth="215.0" text="Website" />
+          <TableColumn fx:id="login_col" onEditCommit="#editLoginCell" prefWidth="85.0" text="Login" />
+            <TableColumn fx:id="password_col" onEditCommit="#editPasswordCell" prefWidth="147.0" text="Password" />
+        </columns>
+      </TableView>
+      <TextField fx:id="website_add" layoutX="69.0" layoutY="259.0" promptText="website name" />
+      <TextField fx:id="login_add" layoutX="69.0" layoutY="299.0" promptText="website login" />
+      <TextField fx:id="password_add" layoutX="69.0" layoutY="338.0" promptText="website password" />
+      <Button layoutX="300.0" layoutY="299.0" mnemonicParsing="false" onAction="#add_entry" text="Add" />
+      <TextField fx:id="add_status" blendMode="MULTIPLY" layoutX="268.0" layoutY="326.0" text="sample" />
+   </children>
+</AnchorPane>
